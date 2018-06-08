@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="boot-jrebet" />
         <module name="boot-rabbitmq" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="boot-jrebet" target="1.8" />
       <module name="boot-rabbitmq" target="1.8" />
     </bytecodeTargetLevel>
   </component>
