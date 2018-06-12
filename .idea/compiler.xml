@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="boot-jrebet" />
         <module name="boot-rabbitmq" />
+        <module name="boot-swagger2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="boot-jrebet" target="1.8" />
       <module name="boot-rabbitmq" target="1.8" />
+      <module name="boot-swagger2" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

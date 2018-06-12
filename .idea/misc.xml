@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/boot-rabbitmq/pom.xml" />
         <option value="$PROJECT_DIR$/boot-jrebet/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-swagger2/pom.xml" />
       </list>
     </option>
   </component>
