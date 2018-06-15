@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<meta>
+<meta charset="UTF-8"></meta>
+<title>Login</title>
+</head>
+<body>
+<form method="post" onsubmit="return false;" class="form">
+    <input type="text" value="itdragon" name="username" placeholder="Account"/>
+    <input type="password" value="123456789" name="password" placeholder="Password"/>
+    <button type="button" id="login-button">Login</button>
+</form>
+<span th:text="'Welcome to our application, ' + ${redirect} + '!'"></span>
+<input id="redirectId" type="hidden" th:value="123">
+<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+<script type="text/javascript">
+    var redirect_url = '[[${redirect}]]'; // 浏览器中回显的URL
+    console.log("redirect_url:" + redirect_url);
+    function doLogin() {
+        $.post("/user/login", $(".form").serialize(), function (data) {
+            if (data.status == 200) {
+                if (redirect_url == "") {
+                    location.href = "/index";
+                } else {
+                    location.href = redirect_url;
+                }
+            } else {
+                alert("登录失败，原因是：" + data.msg);
+            }
+        });
+    }
+
+    $(function () {
+        $("#login-button").click(function () {
+            doLogin();
+        });
+    });
+</script>
+</body>
+</html>
