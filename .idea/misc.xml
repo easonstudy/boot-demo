@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/boot-sso" />
+    <file type="web" url="file://$PROJECT_DIR$/itdragon-sso" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/boot-rabbitmq/pom.xml" />
         <option value="$PROJECT_DIR$/boot-jrebet/pom.xml" />
         <option value="$PROJECT_DIR$/boot-swagger2/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-sso/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-sso-test/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-mybaits-gen/pom.xml" />
       </list>
     </option>
   </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>
