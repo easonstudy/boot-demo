@@ -7,6 +7,8 @@
       <module fileurl="file://$PROJECT_DIR$/boot-mybaits-gen/boot-mybaits-gen.iml" filepath="$PROJECT_DIR$/boot-mybaits-gen/boot-mybaits-gen.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot-rabbitmq/boot-rabbitmq.iml" filepath="$PROJECT_DIR$/boot-rabbitmq/boot-rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot-redis/boot-redis.iml" filepath="$PROJECT_DIR$/boot-redis/boot-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-socket/boot-socket.iml" filepath="$PROJECT_DIR$/boot-socket/boot-socket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-spring-data/boot-spring-data.iml" filepath="$PROJECT_DIR$/boot-spring-data/boot-spring-data.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot-sso/boot-sso.iml" filepath="$PROJECT_DIR$/boot-sso/boot-sso.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot-sso-test/boot-sso-test.iml" filepath="$PROJECT_DIR$/boot-sso-test/boot-sso-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot-swagger2/boot-swagger2.iml" filepath="$PROJECT_DIR$/boot-swagger2/boot-swagger2.iml" />
