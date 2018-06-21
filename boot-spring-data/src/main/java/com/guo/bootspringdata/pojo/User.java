@@ -13,7 +13,7 @@ public class User {
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
-	private Long id;						// 自增长主键
+	private Integer id;						// 自增长主键
 	private String account;					// 登录的账号
 	private String userName;				// 注册的昵称
 	@Transient
@@ -26,10 +26,10 @@ public class User {
 	private String createdDate;				// 用户注册时间
 	private String updatedDate;				// 用户最后一次登录时间
 	
-	public Long getId() {
+	public Integer getId() {
 		return id;
 	}
-	public void setId(Long id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 	public String getAccount() {
