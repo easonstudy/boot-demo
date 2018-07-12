@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/boot-canal/boot-canal.iml" filepath="$PROJECT_DIR$/boot-canal/boot-canal.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/boot-demo.iml" filepath="$PROJECT_DIR$/.idea/boot-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot-jrebet/boot-jrebet.iml" filepath="$PROJECT_DIR$/boot-jrebet/boot-jrebet.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot-mybaits-gen/boot-mybaits-gen.iml" filepath="$PROJECT_DIR$/boot-mybaits-gen/boot-mybaits-gen.iml" />

@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="boot-canal" />
         <module name="boot-jrebet" />
         <module name="boot-mybaits-gen" />
         <module name="boot-rabbitmq" />
@@ -18,6 +19,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="boot-canal" target="1.8" />
       <module name="boot-jrebet" target="1.8" />
       <module name="boot-mybaits-gen" target="1.8" />
       <module name="boot-rabbitmq" target="1.8" />

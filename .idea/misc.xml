@@ -17,6 +17,7 @@
         <option value="$PROJECT_DIR$/boot-mybaits-gen/pom.xml" />
         <option value="$PROJECT_DIR$/boot-socket/pom.xml" />
         <option value="$PROJECT_DIR$/boot-spring-data/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-canal/pom.xml" />
       </list>
     </option>
   </component>
