@@ -43,6 +43,13 @@
 			<version>1.0.25</version>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/com.alibaba.otter/canal.server -->
+		<dependency>
+			<groupId>com.alibaba.otter</groupId>
+			<artifactId>canal.server</artifactId>
+			<version>1.0.25</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>

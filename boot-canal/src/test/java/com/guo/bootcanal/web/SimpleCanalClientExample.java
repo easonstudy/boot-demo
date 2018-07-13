@@ -17,7 +17,6 @@ public class SimpleCanalClientExample {
         CanalConnector connector = CanalConnectors.newSingleConnector(new InetSocketAddress("120.79.210.194",
                 8777), "example", "", "");
         int batchSize = 1000;
-        int emptyCount = 0;
         try {
             connector.connect();
             //订阅消息
@@ -30,7 +29,7 @@ public class SimpleCanalClientExample {
                 if (batchId == -1 || size == 0) {
                     System.out.println("waitting...");
                     try {
-                        Thread.sleep(8000);
+                        Thread.sleep(10000);
                     } catch (InterruptedException e) {
                     }
                 } else {
