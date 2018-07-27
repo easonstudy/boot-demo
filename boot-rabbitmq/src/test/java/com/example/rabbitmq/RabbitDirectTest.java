@@ -48,7 +48,10 @@ public class RabbitDirectTest {
         System.out.println("sendDirectTest : " + context);
 
         // 推荐使用 sendHello（） 方法写法，这种方式在 Direct Exchange 多此一举，没必要这样写
-        this.rabbitTemplate.convertAndSend(exchange, routeKey, context);
+
+        for (int i = 0; i < 10; i++) {
+            this.rabbitTemplate.convertAndSend(exchange, routeKey, context);
+        }
     }
 
 

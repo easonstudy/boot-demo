@@ -12,11 +12,18 @@ import org.springframework.stereotype.Component;
  * @create 2017-10-25 0:47
  **/
 @Component
-@RabbitListener(queues = "hello")
 public class helloReceiver {
 
+   /* @RabbitListener(queues = "hello")
     @RabbitHandler
     public void process(String message) {
         System.out.println("接收者 helloReceiver," + message);
+    }*/
+
+
+    @RabbitListener(queues = "direct")
+    @RabbitHandler
+    public void bb(String message) {
+        System.out.println("接收者 DirectReceiver2," + message);
     }
 }

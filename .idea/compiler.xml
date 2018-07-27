@@ -10,8 +10,10 @@
         <module name="boot-jrebet" />
         <module name="boot-mybaits-gen" />
         <module name="boot-rabbitmq" />
+        <module name="boot-rabbitmq-client" />
         <module name="boot-redis" />
         <module name="boot-socket" />
+        <module name="boot-solr" />
         <module name="boot-spring-data" />
         <module name="boot-sso" />
         <module name="boot-sso-test" />
@@ -23,6 +25,7 @@
       <module name="boot-jrebet" target="1.8" />
       <module name="boot-mybaits-gen" target="1.8" />
       <module name="boot-rabbitmq" target="1.8" />
+      <module name="boot-rabbitmq-client" target="1.8" />
       <module name="boot-redis" target="1.8" />
       <module name="boot-socket" target="1.8" />
       <module name="boot-solr" target="1.8" />

@@ -22,7 +22,6 @@ public class RabbitTopicTest {
 
     @Test
     public void sendMessageTest() {
-
         String context = "此消息在，配置转发消息模式队列下， 有 TopicReceiver1 TopicReceiver2 TopicReceiver3 可以收到";
 
         String routeKey = "topic.message";
@@ -38,8 +37,6 @@ public class RabbitTopicTest {
 
     @Test
     public void sendMessagesTest() {
-
-
         String context = "此消息在，配置转发消息模式队列下，有  TopicReceiver2 TopicReceiver3 可以收到";
 
         String routeKey = "topic.message.s";

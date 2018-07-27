@@ -10,11 +10,11 @@ import org.springframework.stereotype.Component;
  * @create: 2017/10/25 0:49
  */
 @Component
-@RabbitListener(queues = "direct")
 public class DirectReceiver {
 
+    @RabbitListener(queues = "direct")
     @RabbitHandler
     public void process(String message) {
-        System.out.println("接收者 DirectReceiver," + message);
+        System.out.println("接收者 DirectReceiver1," + message);
     }
 }
